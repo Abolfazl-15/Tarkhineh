@@ -1,0 +1,146 @@
+import Badenjan from "../images/Bademjan.png";
+import Dolmeh from "../images/Dolmeh.png";
+import Cocoo from "../images/Cocoo.png";
+import Cophteh from "../images/Coofteh.png";
+import Felafel from "../images/Felafel.png";
+import MirzaGhasemi from "../images/MirzaGhasemi.png";
+import Doolmeh2 from "../images/doolmeh2.png";
+import Coocoo2 from "../images/Coocoo2.png";
+import Baghali from "../images/Baghaleghatoogh.png";
+import kaleh from "../images/KallehJoosh.png";
+import Bademjan2 from "../images/Bademjan2.png";
+import Boorani from "../images/Boorani.png";
+import { FoodItem } from "../types";
+export const iranianFoods: FoodItem[] = [
+  {
+    id: "ir-1",
+    title: "کشک بادمجان",
+    image: Badenjan,
+    price: 95000,
+    rating: 4.7,
+    offer: "",
+    badge: "پرفروش",
+    category: "iranian",
+    description: "بادمجان،کشک،نعناع خشک،مغز گردو،سیر،پیاز",
+  },
+  {
+    id: "ir-2",
+    title: " کوفته برنجی",
+    image: Cophteh,
+    price: 145000,
+    offer: "",
+    rating: 4.5,
+    category: "iranian",
+    description: "برنج سبزی کوفته لپه آرد نخودچی، گردو و زرشک و آلو پیاز",
+  },
+  {
+    id: "ir-3",
+    title: "  باقلاقاتوق ",
+    image: Baghali,
+    price: 205000,
+    discountPrice: 180000,
+    offer: "%۳۰",
+    rating: 4.8,
+    badge: "ویژه",
+    category: "iranian",
+    description: "پاچ باقلا، شوید خشک، کره، سیر، تخم مرغ",
+  },
+  {
+    id: "ir-4",
+    title: " میرزا قاسمی",
+    image: MirzaGhasemi,
+    price: 300000,
+    discountPrice: 270000,
+    rating: 4.6,
+    offer: "%۱۰",
+    category: "iranian",
+    description: "بادمجان، گوجه فرنگی، تخم مرغ، سیر، رب گوجه فرنگی",
+  },
+
+  {
+    id: "ir-5",
+    title: "کله‌جوش",
+    image: kaleh,
+    price: 210000,
+    discountPrice: 203000,
+    rating: 4.1,
+    offer: "%۵",
+    category: "iranian",
+    description: "کشک، گردو، پیاز، نعناع خشک",
+  },
+  {
+    id: "ir-6",
+    title: "فلافل ",
+    image: Felafel,
+    price: 80000,
+    offer: "",
+    rating: 5.0,
+    category: "iranian",
+    description: " نخود، پیاز، تخم گشنیز، سیر، جعفری، سیب زمینی",
+  },
+  {
+    id: "ir-7",
+    title: "بادمجان شکم پر ",
+    image: Bademjan2,
+    price: 150000,
+    discountPrice: 136000,
+    offer: "%۱۸",
+    rating: 3.5,
+    category: "iranian",
+    description: "بادمجان، پیاز، گوجه فرنگی	، سبزی خشک ",
+  },
+  {
+    id: "ir-8",
+    title: "  بورانی بادمجان ",
+    image: Boorani,
+    price: 170000,
+    discountPrice: 148000,
+    offer: "%۲۲",
+    rating: 4.1,
+    category: "iranian",
+    description: "بادمجان قلمی، ماست چکیده، سیر، روغن زیتون، مغز گردو",
+  },
+  {
+    id: "ir-9",
+    title: " دلمه برگ مو ",
+    image: Dolmeh,
+    price: 195000,
+    offer: "",
+    rating: 2.7,
+    category: "iranian",
+    description: "پیاز، برنج، لپه، سبزی دلمه، سرکه",
+  },
+  {
+    id: "ir-10",
+    title: "  دلمه برگ کلم  ",
+    image: Doolmeh2,
+    price: 220000,
+    discountPrice: 209000,
+    offer: "%۸",
+    rating: 4.7,
+    category: "iranian",
+    description: "کلم برگ، برنج، لپه پخته، پیاز، سبزی معطر،رب ",
+  },
+  {
+    id: "ir-11",
+    title: "کوکو سیب‌زمینی و عدس",
+    image: Coocoo2,
+    price: 135000,
+    discountPrice: 105000,
+    offer: "%۲۰",
+    rating: 1.0,
+    category: "iranian",
+    description: "عدس، سیب زمینی، پیاز متوسط، تخم مرغ، پودر سیر، آرد سوخاری ",
+  },
+  {
+    id: "ir-12",
+    title: "کوکو سبزی   ",
+    image: Cocoo,
+    price: 300000,
+    discountPrice: 270000,
+    offer: "%۱۰",
+    rating: 5.0,
+    category: "iranian",
+    description: "تخم مرغ، گردو، سیر، آرد، روغن مایع،سبزی کوکویی",
+  },
+];
