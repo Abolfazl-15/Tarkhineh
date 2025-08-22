@@ -20,7 +20,7 @@ const InfoBox4: React.FC = () => {
 
         {/* توضیحات زیر آیکون‌ها */}
         <div className="flex justify-between text-center text-gray-700 font-sans text-[9px] md:text-lg gap-2 ">
-          <p>آدرس:"چالوس، خیابان ۱۷ شهریور "</p>
+          <p>آدرس:چالوس، خیابان ۱۷ شهریور </p>
 
           <p>تلفن: ۰۲۱-۵۴۸۹۱۲۵۴-۵۱</p>
 
