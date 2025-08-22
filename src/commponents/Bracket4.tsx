@@ -1,7 +1,6 @@
 import React from "react";
 import Branch from "../images/Aghdasieh.png";
-
-import BranchInfo from "../images/branch info.png";
+import InfoBox from "./InfoBox";
 
 function Bracket() {
   return (
@@ -11,13 +10,9 @@ function Bracket() {
       </h2>
 
       <img src={Branch} alt="Branch" className="w-full h-36 md:h-72" />
-      <img
-        src={BranchInfo}
-        alt="Branch"
-        className="w-80 md:w-[900px] md:h-36 h-24 relative -top-8"
-      />
-
-      <img src={Branch} alt="Branch" className="w-full md:h-72" />
+      <div className="relative -top-14">
+        <InfoBox />
+      </div>
     </div>
   );
 }
