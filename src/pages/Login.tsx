@@ -201,11 +201,7 @@ export default function Login() {
             </p>
             <p className="font-sans w-80 relative top-3 text-center text-xs md:text-sm md:w-full">
               ورود و عضویت در ترخینه به منزله قبول
-<<<<<<< HEAD
               <a className="text-green-600" href="/Rules">
-=======
-              <a className="text-green-600" href="/ghavanin">
->>>>>>> 4f81c6a3ff3dd58033dce959229904ba6aa10a04
                 {" "}
                 قوانین و مقررات{" "}
               </a>
