@@ -1,6 +1,6 @@
 import React from "react";
 import Branch from "../images/Aghdasieh.png";
-import { PhoneCall, LocateIcon, Timer } from "lucide-react";
+import BranchInfo from "../images/branch info.png";
 
 function Bracket() {
   return (
@@ -9,25 +9,12 @@ function Bracket() {
         شعبه اقدسیه
       </h2>
 
-      <img src={Branch} alt="Branch" className="w-full md:h-72" />
-      <div className="w-[1200px] h-36 relative -top-28 mt-6 p-4 bg-white border-2 border-green-500 rounded-lg flex flex-row justify-between items-center space-x-4">
-        <div className="flex flex-col items-center text-center">
-          <Timer className="text-green-600 mb-2" />
-          <h2 className="text-sm md:text-base">همه‌روزه از ساعت ۱۲ تا ۲۳</h2>
-        </div>
-
-        <div className="flex flex-col items-center text-center">
-          <LocateIcon className="text-green-600 mb-2" />
-          <h2 className="text-xs md:text-sm">
-            خیابان اقدسیه، نرسیده به میدان خیام، پلاک ۸
-          </h2>
-        </div>
-
-        <div className="flex flex-col items-center text-center">
-          <PhoneCall className="text-green-600 mb-2" />
-          <h2 className="text-sm md:text-base">۰۲۱-۵۴۸۹۱۲۵۲-۵۳</h2>
-        </div>
-      </div>
+      <img src={Branch} alt="Branch" className="w-full h-36 md:h-72" />
+      <img
+        src={BranchInfo}
+        alt="Branch"
+        className="w-80 md:w-[900px] md:h-36 h-24 relative -top-8"
+      />
     </div>
   );
 }

@@ -9,7 +9,7 @@ function Bracket() {
         شعبه اکباتان
       </h2>
 
-      <img src={Branch} alt="Branch" className="w-full md:h-72" />
+      <img src={Branch} alt="Branch" className="w-full h-36 md:h-72" />
       <img
         src={BranchInfo}
         alt="Branch"

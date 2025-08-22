@@ -265,7 +265,7 @@ export default function Signup() {
           </p>
           <p className="w-80 relative top-3 text-center text-xs md:text-sm md:w-full">
             ورود و عضویت در ترخینه به منزله قبول
-            <a className="text-green-600" href="/ghavanin">
+            <a className="text-green-600" href="/Rules">
               {" "}
               قوانین و مقررات{" "}
             </a>
