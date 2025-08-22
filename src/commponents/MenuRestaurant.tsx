@@ -17,7 +17,7 @@ function MenuRestaurant() {
             <img
               src={Drink}
               alt="Drink"
-              className="w-full h-auto object-contain max-h-[240px] md:max-h-[310px] relative md:-top-[61px] -top-[45px]"
+              className="w-full h-auto object-contain max-h-[240px] md:max-h-[310px] relative md:-top-[61px] -top-[46px]"
             />
           </Link>
         </div>
