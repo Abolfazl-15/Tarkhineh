@@ -17,7 +17,11 @@ function MenuRestaurant() {
             <img
               src={Drink}
               alt="Drink"
+<<<<<<< HEAD
               className="w-full h-auto object-contain max-h-[240px] md:max-h-[300px] relative md:-top-[52px] -top-[47px]"
+=======
+              className="w-full h-auto object-contain max-h-[240px] md:max-h-[300px] relative md:-top-[52px] -top-[43px]"
+>>>>>>> 4f81c6a3ff3dd58033dce959229904ba6aa10a04
             />
           </Link>
         </div>
